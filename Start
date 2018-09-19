@@ -1,1 +1,7 @@
 Linux is a family of free and open-source software operating systems built around the Linux kernel. 
+There are several Linux distributions like Ubuntu, Cent OS & Fedora. In the mentioned Linux distributions, there is a Graphical User Interface (GUI) and a  Command Line Interface (CLI). Here we will focus on the CLI presuming that is why you are here.
+
+As a person who interacts with computers daily, knowing a couple of commands may make your life a little fancier. 
+
+1. To know in which folder you are operating use 'pwd'.
+2. To know what files are in that particular folder use 'ls'. For more details you can use 'ls -a' or 'ls -l'
