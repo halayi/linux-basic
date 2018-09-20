@@ -3,5 +3,10 @@ There are several Linux distributions like Ubuntu, Cent OS & Fedora. In the ment
 
 As a person who interacts with computers daily, knowing a couple of commands may make your life a little fancier. 
 
-1. To know in which folder you are operating use 'pwd'.
-2. To know what files are in that particular folder use 'ls'. For more details you can use 'ls -a' or 'ls -l'
+1. To know the folder you are operating in enter 'pwd' command.
+2. To get the files are in that folder enter 'ls' command. For more details you can enter these commands 'ls -a' or 'ls -l'.
+3. Changing to another directory enter 'cd' command.
+4. For the Size of the folder use command 'du -h'.
+5. To create a new folder enter 'mkdir' command followed by the name of the folder like 'mkdir file1'
+6
+To get help incase you are stuck, use the 'man' command. Man stands for manual. It will list the details of how yo use a given command like 'man cd' which displays the man page about cd.
