@@ -8,5 +8,8 @@ As a person who interacts with computers daily, knowing a couple of commands may
 3. Changing to another directory enter 'cd' command.
 4. For the Size of the folder use command 'du -h'.
 5. To create a new folder enter 'mkdir' command followed by the name of the folder like 'mkdir file1'
-6
-To get help incase you are stuck, use the 'man' command. Man stands for manual. It will list the details of how yo use a given command like 'man cd' which displays the man page about cd.
+6. To run commands enter 'sudo'. Like 'sudo ls' you will be prompted to enter the password inorder to complete the request made.
+7. To get a list of all the files or folders including the hidden ones in that given folder enter the command 'du'.
+8. To know the size of each file or folder enter 'du -h' command.
+
+To get help incase you are stuck with a command, use the 'man' command. Man stands for manual. It will list the details of how yo use a given command like 'man cd' which displays the man page about cd.
