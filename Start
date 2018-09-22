@@ -3,13 +3,19 @@ There are several Linux distributions like Ubuntu, Cent OS & Fedora. In the ment
 
 As a person who interacts with computers daily, knowing a couple of commands may make your life a little fancier. 
 
-1. To know the folder you are operating in enter 'pwd' command.
-2. To get the files are in that folder enter 'ls' command. For more details you can enter these commands 'ls -a' or 'ls -l'.
-3. Changing to another directory enter 'cd' command.
-4. For the Size of the folder use command 'du -h'.
-5. To create a new folder enter 'mkdir' command followed by the name of the folder like 'mkdir file1'
-6. To run commands enter 'sudo'. Like 'sudo ls' you will be prompted to enter the password inorder to complete the request made.
-7. To get a list of all the files or folders including the hidden ones in that given folder enter the command 'du'.
-8. To know the size of each file or folder enter 'du -h' command.
+1. To know where you are enter 'pwd' command.
+2. To know which files are in that folder enter 'ls' command. For more details you can also enter these commands 'ls -a' or 'ls -l'.
+3. Changing to another directory enter 'cd' command. Like 'cd Desktop/'. NOTE: The names of files or folders are case sensitive.
+4. To know the names of the users that are currently logged in enter 'who' command.
+5. To know the what the each user that is logged into the system is doing and the load of the activity enter 'who' command.
+6. To create a new folder enter 'mkdir' command followed by the name of the folder like 'mkdir file1'
+7. To run commands with administrator rights enter 'sudo' command. Like 'sudo ls' after which you will be asked to enter the password inorder to complete the request made.
+8. To get a list of all the files or folders including the hidden ones in that given folder enter the command 'du'.
+9. To get the size of the each file in the folder use command 'du -h'.
+10. To create a text file enter 'touch' command. Like 'touch file1'
+11. To edit the text file enter 'nano' or 'vi' command. like 'nano file1'. NOTE: There are other editors.
+12. To see the content of the text file enter 'cat' command. Like 'cat file1'
+13. To delete a file or folder enter 'rm' command. Like 'rm file1'
+14. To get a new terminal without re-opening a new one enter 'clear' command. It will remove all the current content and give you a clear sheet.
 
 To get help incase you are stuck with a command, use the 'man' command. Man stands for manual. It will list the details of how yo use a given command like 'man cd' which displays the man page about cd.
