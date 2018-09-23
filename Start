@@ -17,7 +17,7 @@ As a person who interacts with computers daily, knowing a couple of commands may
 12. To see the content of the text file enter 'cat' command. Like 'cat file1'
 13. To delete a file or folder enter 'rm' command. Like 'rm file1'
 14. To get a new terminal without re-opening a new one enter 'clear' command. It will remove all the current content and give you a new sheet.
-15.
-16.
+15. To list running processes enter 'ps' command.
+16. To get a summary of used and free disk space enter 'df' command.
 
 To get help incase you are stuck with a command, use the 'man' command. Man stands for manual. It will list the details of how to use a given command like 'man cd' which displays the man page about 'cd'.
