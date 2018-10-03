@@ -1,9 +1,27 @@
 Ever wonder what happens from the time when you press the power button on your computer up to when you see the login screen, 
 
-I'll be sharing with you the details of what happens behind the scenes and in particular I'll use the Linux Operating System as an example. The process in most systems is the same though some system file names names may differ.
+I'll be sharing with you the details of what happens behind the scenes and in particular I'll use the Linux 
+Operating System as an example. The process in most systems is the same though some system file names names may differ.
 
 So when you switch on your computer, it starts by booting. Booting simply means starting up of a computer.
 The first program that loads is the system firmware which is also the BIOS (Basic Input/Output System).
-Upon starting, the BIOS does a couple of system healthy checks. It also goes ahead to search, load and execute the bootloader. The bootloader is the MBR (Master Boot Record) Loader.
-The BIOS looks for the bootloader program in the CD-DRIVE, FLASH DISK DRIVE OR HARD DRIVE. To get the information on the BIOS startup, you can either press F2 or F12 during the BIOS startup to change the boot sequence. So to boot from a particular Drive, you both it as the highest priority Disk and make sure that it is also enables as a boot medium.
+
+Upon starting, the BIOS does a couple of system healthy checks. It also goes ahead to search, load and execute 
+the bootloader. The bootloader is the MBR (Master Boot Record) Loader.
+
+The BIOS looks for the bootloader program in the CD-DRIVE, FLASH DISK DRIVE OR HARD DRIVE. To get the information 
+on the BIOS startup, you can either press F2 or F12 during the BIOS startup to change the boot sequence. So to boot
+from a particular Drive, you both it as the highest priority Disk and make sure that it is also enables as a boot medium.
+
 Once the bootloader program is detected & loaded into memory, BIOS gives control to it.
+
+The bootloader is made up of the MBR and the GRUB.
+
+The MBR (Master Boot Record) loader is located on the first sector of the bootable drive. The MBR loads and executes the GRUB.
+
+GRUB (Grand Unified Bootloader) goes ahead to load the operating system kernel. In case more than one operating system is 
+installed, the bootloader displays a boot-time user interface that lets you select the operating system that you want to load
+else it selects the default kernel. A kernel is the main layer between the operating system and hardware, helping with process
+and management, file systems, device control and networking.
+
+As part of the Kernel boot procedure, initrd (Initial RAM Disk) is loaded.
