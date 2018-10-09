@@ -24,4 +24,9 @@ installed, the bootloader displays a boot-time user interface that lets you sele
 else it selects the default kernel. A kernel is the main layer between the operating system and hardware, helping with process
 and management, file systems, device control and networking.
 
-As part of the Kernel boot procedure, initrd (Initial RAM Disk) is loaded.
+As part of the Kernel boot procedure, init (Initial RAM) is loaded.
+
+Init looks at the /etc/inittab file from where init identifies, decides the run level to load all the appropriate programs.
+You can set the run levels from 0 to 6, each with meaning.
+Depending on the default init level, the system goes ahead to execute the run level programs from 0 to 6.
+Init starts up all the low level services and units required for the system to marginally function.
