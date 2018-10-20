@@ -3,8 +3,9 @@ Ever wonder what happens from the time when you press the power button on your c
 I'll be sharing with you the details of what happens behind the scenes and in particular I'll use the Linux 
 Operating System as an example. The process in most systems is the same though some system file names names may differ.
 
-So when you switch on your computer, it starts by booting. Booting simply means starting up of a computer.
-The first program that loads is the system firmware which is also the BIOS (Basic Input/Output System).
+The process of starting up a computer is called Booting, the computer initializing and getting the hardware and software
+ready for you. It starts with a Power On Self Test(POST), which basically makes sure that all of the internal hardware
+of the system is working correctly afterwhich it loads the system firmware which is also the BIOS (Basic Input/Output System).
 
 Upon starting, the BIOS does a couple of system healthy checks. It also goes ahead to search, load and execute 
 the bootloader. The bootloader is the MBR (Master Boot Record) Loader.
