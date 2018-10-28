@@ -1,5 +1,13 @@
-The Linux Operating System is made up of like distributions like Debian, Cent OS, Fedroa, Linux Mint and Ubuntu.
-Linux systems are by far one of the most secure operating systems but there is no such thing as a secure system as 
-long as it is connected to the network. An individual who breaks into your computer is called a hacker.
-Here,I will share with you how to harden your Linux Operating System security against compromise.
+The Linux Operating System is made up of distributions like Debian, Cent OS, Fedroa, Linux Mint and Ubuntu.
+Linux systems are by far one of the most secure operating systems but there is no such thing as an absolutely secure system.
+The Linux system distributions are growing in popularity which also means growing exploits.
+
+The security of any given system starts with the user. Every user of a system has a unique identifier that is known like a 
+User ID which identifies a particular individual. To access the system a password is required which authenticates that it
+who you claim to be, that is something only you know. The password is never to be shared at any given time to avoid being
+compromised. When the authentication is done, the user gets the authorization to use the system. Every user is authorized 
+access in the system up to the limit provided.
+
+Installation of an anti virus should not be dismissed. It's true, Linux systems are far more secure than other operating
+systems but it's better not to take any chances. There are various anti virus software some free and others commercial.
 
