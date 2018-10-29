@@ -4,11 +4,13 @@ I'll be sharing with you the details of what happens behind the scenes and in pa
 Operating System as an example. The process in most systems is the same though some system file names names may differ.
 
 The process of starting up a computer is called Booting, the computer initializing and getting the hardware and software
-ready for you. It starts with a Power On Self Test(POST), which basically makes sure that all of the internal hardware
-of the system is working correctly afterwhich it loads the system firmware which is also the BIOS (Basic Input/Output System).
+ready for you. 
 
-Upon starting, the BIOS does a couple of system healthy checks. It also goes ahead to search, load and execute 
-the bootloader. The bootloader is the MBR (Master Boot Record) Loader.
+The BIOS (Basic Input/Output System) is the first to be loaded. It goes ahead to do Power On Self Test(POST), which
+basically makes sure that all of the internal hardware of the system are working correctly. The BIOS continues to do
+a couple of system healthy checks after which it searchs, loads and executes the bootloader.
+
+The bootloader is the MBR (Master Boot Record) Loader.
 
 The BIOS looks for the bootloader program in the CD-DRIVE, FLASH DISK DRIVE OR HARD DRIVE. To get the information 
 on the BIOS startup, you can either press F2 or F12 during the BIOS startup to change the boot sequence. So to boot
