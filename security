@@ -4,9 +4,9 @@ The Linux system distributions are growing in popularity which also means growin
 
 The security of any given system starts with the user. Every user of a system has a unique identifier that is known like a 
 User ID which identifies a particular individual. To access the system a password is required which authenticates that it
-who you claim to be, that is something only you know. The password is never to be shared at any given time to avoid being
-compromised. When the authentication is done, the user gets the authorization to use the system. Every user is authorized 
-access in the system up to the limit provided.
+is who the User claims to be, that is something only you know. The password is never to be shared at any given time to avoid
+being compromised. When the authentication is done, the user gets the authorization to use the system. Every user is only
+authorised access in the system up to the limit provided.
 
 Installation of an anti virus should not be dismissed. It's true, Linux systems are far more secure than other operating
 systems but it's better not to take any chances. The anti virus wards off malicious attacks especially when connected to 
@@ -17,3 +17,12 @@ As long as software is being actively supported by the vendor, there will always
 features, fix bugs and close security holes. Operating system updates are important to install because when the vendors
 launch their software it's not 100% error free and also technology keeps changing all the time. The most convenient way to 
 update your system without having such a task interrupt your work is by simply automating the updates.
+
+The usage of email addresses is really popular given the fact that owning one is free. In the emails we receive various
+messages from auto subscriptions to anonymous senders and also senders we know. Emails have been targeted and used many
+times by individuals setting traps to infiltrate networks or get access to a particular device or computer. With the growing
+technology, many of such emails are detected automatically and put into the Spam/Junk folder but yet again some genuine
+ones are sometimes marked as spam. The dangerous emails usually come with an attachment to open or an image or a website link.
+Clicking on any of those puts your system at so many risks like malware intrusion that may edit, destroy or copy confidential
+files with malicious intentions. The best way is to delete emails that you don't understand or contain information that you
+didn't ask for.
