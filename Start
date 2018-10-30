@@ -1,7 +1,7 @@
 Ever wonder what happens from the time when you press the power button on your computer up to when you see the login screen, 
 
-I'll be sharing with you the details of what happens behind the scenes and in particular I'll use the Linux 
-Operating System as an example. The process in most systems is the same though some system file names names may differ.
+I'll be sharing details of what happens behind the scenes and in particular I'll use the Linux Operating System. 
+The process in most operating systems is the same though some system file names names may differ.
 
 The process of starting up a computer is called Booting, the computer initializing and getting the hardware and software
 ready for you. 
