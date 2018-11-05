@@ -1,5 +1,8 @@
 The Linux Operating System is made up of distributions like Debian, Cent OS, Fedroa, Linux Mint and Ubuntu.
-Linux systems are by far one of the most secure operating systems but there is no such thing as an absolutely secure system.
+Linux is considered to be more secure than many other operating systems because processes are naturally isolated from 
+each other. One process normally cannot access the resources of another process, even when that process is running with
+the same user privileges. Linux thus makes it difficult (though certainly not impossible) for viruses and security exploits 
+to access and attack random resources on a system.
 The Linux system distributions are growing in popularity which also means growing exploits.
 
 The security of any given system starts with the user. Every user of a system has a unique identifier that is known like a 
