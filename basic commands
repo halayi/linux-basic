@@ -14,5 +14,5 @@ su: used to switch to root user (so that super user permissions can be used to e
 su username: used to switch to a different user. Eg. su mike
 sudo: executes that particular command with super user privileges.
 cat: used to display the contents of text files and also concatenate several files into one. Eg. cat file1.txt
-last: used to display the last time each user was logged into the system.
+last: used to identify how long a user account has remained active.
 tail: used to output the last part (last 10 lines) of a files. Eg. tail /etc/passwd 
