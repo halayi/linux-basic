@@ -26,3 +26,7 @@ ones are sometimes marked as spam. The dangerous emails usually come with an att
 Clicking on any of those puts your system at so many risks like malware intrusion that may edit, destroy or copy confidential
 files with malicious intentions. The best way is to delete emails that you don't understand or contain information that you
 didn't ask for.
+
+For a safe working environment, it is advised to grant the minimum privileges possible and necessary to accounts, and remove 
+inactive accounts. The last utility, which shows the last time each user logged into the system, can be used to help identify
+potentially inactive accounts which are candidates for system removal.
