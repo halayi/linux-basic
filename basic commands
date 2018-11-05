@@ -1,13 +1,18 @@
-Linux provides the CLI (Command Line Interface) to further interact with the Operating System besides the GUI (Graphical User Interface). Here I will list a few of them.
+Linux provides the CLI (Command Line Interface) to further interact with the Operating System besides the GUI (Graphical 
+User Interface). Here I will list a few of them.
+
 pwd: Displays the current working director of the terminal
 /: Root Directory (Where all the files can be accessed)
 cd: Moves you to that particular directory. Eg. cd Desktop, moves to the Desktop directory. 
 cd / cd ~ : It automatically switches you straight to the root user.
-ls: Lists the different files and folders in that directory. You may as well use ls-a (to display the hidden files that cannot even seen in GUI) and ls -l (to display more details about the files and folders)
+ls: Lists the different files and folders in that directory. You may as well use ls-a (to display the hidden files that 
+cannot even seen in GUI) and ls -l (to display more details about the files and folders)
 clear: Simply clears the terminal of all the commands you run earlier.
-echo: It writes its arguments to standard output. It means that whatever is written after the echo command will be printed as it is.
+echo: It writes its arguments to standard output. It means that whatever is written after the echo command will be printed 
+as it is.
 su: used to switch to root user (so that super user permissions can be used to execute commands)
 su username: used to switch to a different user. Eg. su mike
 sudo: executes that particular command with super user privileges.
 cat: used to display the contents of text files and also concatenate several files into one. Eg. cat file1.txt
 last: used to display the last time each user was logged into the system.
+tail: used to output the last part of the files. Eg. tail /etc/passwd 
