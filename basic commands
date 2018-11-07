@@ -16,3 +16,4 @@ sudo: executes that particular command with super user privileges.
 cat: used to display the contents of text files and also concatenate several files into one. Eg. cat file1.txt
 last: used to identify how long a user account has remained active.
 tail: used to output the last part (last 10 lines) of a files. Eg. tail /etc/passwd 
+history: used to display the previous codes run in the terminal.
