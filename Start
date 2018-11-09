@@ -31,4 +31,4 @@ will contain the Kernel modules required to melt that logical volume as the root
 Once the initrd melts the actual root file system, it's job is done and the operating system continues loading from the
 real root file system.
 
-NOTE: All the files needed to boot the Linux operating system are stored in /boot Directory.
+NOTE: All the files needed to boot the Linux operating system are stored in /boot Directory
