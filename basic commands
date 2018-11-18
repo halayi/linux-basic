@@ -17,3 +17,5 @@ cat: used to display the contents of text files and also concatenate several fil
 last: used to identify how long a user account has remained active.
 tail: used to output the last part (last 10 lines) of a files. Eg. tail /etc/passwd 
 history: used to display the previous codes run in the terminal.
+ulimit: used to check the CPU limit of a user.
+chmod: used to change the file mode bits of each given file according to the mode specified.
