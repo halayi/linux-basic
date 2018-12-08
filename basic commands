@@ -19,5 +19,11 @@ tail: used to output the last part (last 10 lines) of a files. Eg. tail /etc/pas
 history: used to display the previous codes run in the terminal.
 ulimit: used to check the CPU limit of a user.
 chmod: used to change the file mode bits of each given file according to the mode specified.
+date: displays the current date.
 cal: displays the calender in text.
 cal -j: displays the calender in Juian days.
+hostname: displays the name of the computer, the name of the computer that is registered in the system.
+uptime: displays the minutes from when the system was booted. 
+whoami / log name:displays the user that is logged with the system
+id: prints the user id for the user logged with the system.
+uname: prints the system information
