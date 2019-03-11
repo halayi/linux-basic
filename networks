@@ -1,0 +1,5 @@
+Here are a few details and commands that will help you navigate through the Linux network world:
+
+ifconfig: Displays all active interfaces with details
+ifconfig -a: Displays information of all active or inactive network interfaces on the server.
+Ifconfig (interface name): Displays details only the details about that particular interface
