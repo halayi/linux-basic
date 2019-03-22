@@ -27,4 +27,4 @@ uptime: displays the minutes from when the system was booted.
 whoami / log name:displays the user that is logged with the system
 id: prints the user id for the user logged with the system.
 uname: prints the system information
-grep: used for searching for lines or text that match one or many regular expressions.
+grep: used for searching for lines or text that match one or many regular expressions for example grep 'word' filename
